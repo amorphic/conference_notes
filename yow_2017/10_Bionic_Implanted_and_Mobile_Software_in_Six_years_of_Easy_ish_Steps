@@ -1,0 +1,79 @@
+# Bionic Implanted and Mobile Software in Six (years of) Easy (ish) Steps
+## Mark Aufflick / Adam Searle
+
+> Over the course of six years, the Cochlear System 7 project went from prototypes using bleeding edge chipsets and mobile frameworks, to delivering a world first mobile and cloud connected implanted device. BlueTooth, custom hardware, regulatory concerns, clinical trials, 37 language internationalisations, accessibility, distributed teams, custom cryptographic implementations, four platforms. A zen garden of Kanban surrounded by waterfalls.
+
+> We will look at the project and team aspects as well as coding and technical approaches, that enabled us to take this project from R&D to release, maintaining course and progress on top of shifting technologies, and operating a team in an organisation with complex technical and timeline interdependencies.
+
+* Nucleus 7
+    * New device
+    * Bluetooth Capable
+* 6 years development
+    * 2 years of R&D
+        * First class 3 medical device to integrate with a smartphone
+    * 4 years of Product Development
+        * More team members
+        * More features
+* Stack
+    * BLE
+        * Dealing with new support from vendor (Apple)
+        * Much more complex than other BLE products
+            * Had ot throw away traditional stack
+    * Nordic chip
+        * Crypto unit, but only one (shared)
+    * Architecture
+        * All about deferring all decisions possible
+    * API - single xml spec file
+        * spec file propagates stub files
+        * everything documented (no word docs, wiki etc)
+        * good for regulation
+            * can provide docs for every revision at any time
+    * Crypto
+        * Single C lib used across libraries
+        * Eliminates extra complexity. Worth the tradeoff
+* Scaling
+    * For internal skills
+    * For future-proofing
+        * Long term (6 years)
+        * Balance between choosing a new tech and staying cutting edge
+    * Grew into various teams
+        * From single platform experts (eg) iOS) to multiples
+    * UX
+        * Lots of user feedback
+        * Because customers have disability that devs don't
+        * E.g. "Find my sound processor"
+            * Helped to build market reach - more kids/parents 
+            * Really important to some personas (parents)
+            * Unimportant to others (elderly)
+    * Tooling
+        * Automated CI Screenshotting
+            * Runs through app taking screenshots
+            * Notices where text is wrong etc
+    * For regulation
+        * Class 3 Medical Device
+            * App is accessory to active implanted medical device
+            * So must be assessed by national bodies
+        * Carefully plan features if pre-approval if required
+    * Validation
+        * Beta testing (clinical trials)
+    * For the Future
+        * When product becomes product + platform
+            * Potential for more apps
+            * Vending an API for other products to talk to the sound processor
+* Observations
+    * Complexity over time....
+        * Steady, then spike
+        * Complexity Factors
+            * Parallel feature development cycles
+            * Number of systen interconnections
+                * Introducing new interconnections can be for small things or big things
+                * They always introduce a spike in complexity
+                * Simpler design, fewer interconnections
+            * Translations, Regions & Accessibility Multipliers
+            * Incremental Changes
+            * User experience
+    * Grand Unifying Theory
+        * How to plan projects that scale well?
+        * Looking at feature roadmap
+            * Anything that's introducing a new interconnection is likely to need big team/architecture changes
+
