@@ -1,0 +1,209 @@
+3D printer control with Python
+
+Additive manufacturing ("3D printing") has already proven to be a revolutionary technology in industries as diverse as medicine, architecture, industrial design and aerospace.
+
+At the same time affordable consumer-grade printers have put 3d printing increasingly within reach of the general public.
+
+However the user interface of most 3D printers still leave something to be desired. Interaction is generally performed via a monochrome LCD and jog dial. Network connectivity is often an afterthought with file transfers primarily performed via SD Card.   
+
+OpenGB is an Open Source 3D printer control interface. It was developed in conjunction with re:3D as part of the Open Gigabot project and but was designed to work on a variety of Open Source 3D printers.
+
+In this talk James Stewart will describe the OpenGB backend which is written in Python and acts as an intermediary between the network and the printer. Various technologies ar employed including:
+
+* Tornado
+* Websockets
+* JSONRPC
+* Multiprocessing/multithreading
+
+As well as 3D printing enthusiasts, this talk will be of interest to anybody using Python to control a lower-level controller such as Arduino. 
+
+(http://opengb.readthedocs.io)
+
+---
+
+* Move the print head
+
+* Set bed temperature
+
+* Print a gcode file
+
+* Level the Bed (future)
+
+* Take a photo (future)
+
+---
+
+
+
+Aims
+
+* Inform
+ * How plastic extrusion 3d printing works
+  ?? 3d printing
+  * Hot plastic
+  * extruded via a stepper motor
+  * head moved via stepper motor
+  * temperature readings via thermistors
+  ?? Microcontroller board (Arduino etc)
+  * Microcontroller board (microprocessor + io + RAM + clock) arduino
+   * Arduino C application: loop reading inputs, writing outputs.
+ * How 3d printers are controlled
+   * LCD
+   * Jog dial
+   * SD Card
+    * Gcode
+     * Example
+  * Present limitations
+   * LCD
+   * Jog dial
+   * SD Card
+   * Arduino/Marlin (updating requires flashing ROM, changing core)
+ * Aims of opengb
+  * Replace LCD + jog interface
+   * Better interface (touch)
+   * More features
+   * Arguably easier to add features
+  * Network 
+   * Easier access (remote, mobile etc)
+   * API
+   * Potential expose to Internet, 
+  * Easy to install/deploy
+ * Alternatives
+  * Octoprint
+   * Not designed as a touchscreen UI
+   * Interface and Engine tightly coupled
+   * Liked the idea of making a pure websocket interface
+    * Open a websocket
+    * Use standard JSON-RPC2.0 calls and events
+ * How opengb works
+  * Architecture
+   * A separate computer running Linux
+    * Can be a laptop or a PC but designed to be a single-board computer such as a Raspi
+    * Connected to microcontroller board via Serial (USB) pyserial
+     * Because Firmwares (Marlin et al) accept gcode commands via serial
+     * Not just moving/extruding via gcode - most anything we can do via the LCD interface 
+   * A multi-process Python application
+    * Printer process
+     * A Python interface onto the printer
+     * Provide reliable execution of gcode
+     * Expose functionality via a Python API
+      * so "G20 X Y Z" becomes "move_head(X Y Z)"
+    * Server process
+     * Provide a filesystem and database for storage
+     * Provide a websocket API
+      * Exposes Printer API + Additional tasks for managing gcode files, print jobs etc
+      * Allows any client to easily control the printer
+      * Single effort for local and remote
+       * Mobile app
+       * Python lib (or indeed any language lib)
+        * Opens possiblity of print farms
+        * Central application distributing jobs, monitoring + controlling printers
+    * More accessible codebase
+     * Python is better organised and easier to grok than arduino C
+     * Adding functionality 
+    * Provide easier updating
+     * More mature
+     * pip install -U opengb or apt-get upgrade opengb VS download/configure/flash *boom*
+   * A web interface
+    * Single-page JS application written in Vue.js
+    * Vue.js is a very neat, tidy and relatively intuitive framework
+    * Optional
+    * Served by the backend but separate codebase
+    * Clear distinction between frontend and backend
+    * Raspi + Touch can be easily set up like a web "kiosk"
+  * Tech used
+   * Tornado
+    * Async
+    * Designed to run alone
+     * Async non-blocking
+     * vs Flask etc - built in web servers for dev only... sync and blocking
+     * Built-in WebSocketHandler
+     * Built in event loop
+      * Example of from_printer and counter loops
+   * JSON-RPC 2.0
+    * Websockets give freedom to send/receive 
+    ?? Familiar with RCP - xmlrpc is common
+    * Types
+     * Methods
+     * Event
+    * Use this to *extend* Tornado WebsocketHandler
+     * Example
+    * Easy to document - Sphinx docs for methods become websocket API docs!
+   * SQLLite + Peewee
+    * Full-featured
+    * But lightweight
+    * Easy to bundle
+    * Not a DB-heavy application, but a DB is nice
+    * Example: OGD.GcodeFile.Get
+   * Multiprocessing
+    * Separate the two main parts:
+     * Interfacing with the world
+      ^--all of the above
+     * Controlling the printer
+      * Issuing ad-hoc commands
+      * Generating events
+      * Executing gcode sequences
+   * Pyserial
+    * Mature and fully-featured Serial interface
+ * Internals
+  * Server
+   * Tornado Async
+   * JSONRPC Handler
+   * Printer Queue
+    * To
+    * From (Callbacks)
+  * Printer
+   * ABC
+    * Base class defines loop + methods
+      * Threads
+       * Read
+       * Write
+    * Concrete implementation
+     * Marlin
+      * Pyserial
+       * Serial lock
+     * Dummy
+   * Sending to printer
+    * Buffer
+    * Push -> Printer
+   * Receiving from printer
+    * Pop
+    * Mappings
+     * Callbacks
+    
+ * Examples
+  * Communication Types (examples from Frontend, compare to examples w/Marlin?)
+   * Message (unsolicited)
+    * Temp update
+   * Command (no response)
+    * Move head
+   * Request (response)
+    * Post file
+    * Get file
+    * Print file
+
+Future 
+* How opengb architecture could be applied to other IoT applications
+ * Similar process of more-specific processors.
+  Client -> OpenGB -> Marlin -> Stepper Driver
+ * Same for robots, quadcopters, etc.
+ * Could use some of the architecture
+  * E.g. tornado for web:
+   * Tidy install
+   * Websockets
+ 
+
+* Request Help
+ * Contributors
+
+
+CODE CHANGES
+
+- json -> dict (queues)
+- Multiprocessing.Queue -> queue.Queue
+- post_file
+ - add put_file as redirect
+- Remove old StatusHandler?
+- Move non-serial code back into printer/base.py
+ - Dummy printer also
+- Log buffer contents
