@@ -1,0 +1,64 @@
+# Building Cloud Native Buildpacks for Kubernetes
+
+* Every app changes over time
+    * Real world problem
+    * Language
+    * Deps
+    * Base OS
+    * One wholesale OS change
+    * Deployment platform changes
+    * CI/CD changes
+    * Dev team changes
+    * CVEs are everywhere
+* Separation of concerns
+    * Dev team
+        * Real world problems
+        * Lang changes
+        * Dep changes
+    * Language-specifc team
+        * Supported versions
+        * Runtime configuration
+    * Platform team
+        * The rest
+* Currently we have Dockerfile
+    * If base image version not specified: what do you get?
+    * If language version not specified or not built from scratch: What language are we using?
+    * All through this dockerfile are all of the organisation's concerns (above)
+    * Good for packaging our app once
+    * Not good for operating/upgrading an app over time
+    * What happens when there are 30k docker images in prod and a Heartbleed CVE drops
+* Cloud Native Buildpacks
+    * Pivotal & Heroku initiative
+    * CNCF incubation
+    * Lots of content online
+    * Design in 3 parts:
+        * Buildpack
+            * Isolated piece of functionality that knows how to do something
+                * Am I useful to this artifact (code/executable etc) or not?
+                * Eg monitoring agent, etc
+        * Builder
+        * Lifecycle
+    * In the end it creates an OCI (docker image)
+        * We know how it was built
+        * Built in layers:
+            * BP1-provided layers
+            * BP2-provided layers
+            * App
+            * Run image
+    * Rebasing becomes possible
+        * Change a component
+        * Understand what changed
+* Details
+    * Detector
+        * Can work out what to use based on the content of the buildpack
+    * Builder
+        * Auto-builds the deps based on the appropriate buildpacks
+        * No copy-pasting from SO
+    * Images contain tags containing what is in them
+        * Good for auditing!
+* kpack
+    * Lifecycle process as a service
+    * Runs in k8s
+    * Configure via kube resources
+        * Can set cache size to prevent re-downloading
+        * Can watch git repo to re-build on commit
