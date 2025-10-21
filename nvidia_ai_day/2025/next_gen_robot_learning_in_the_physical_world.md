@@ -1,0 +1,60 @@
+- History
+  - Programming
+- Reinforcement Learning
+  - Limited success in  
+- Imitation learning / Behaviour Cloning
+  - Human demonstrates tasks
+  - Underpinned by generative AI
+  - Diffusion generating robot actions instead of images
+  -
+- Part 1: Robot Learning
+  - Semantic Information is valuable for Robot Learning
+  - Pattern
+    - State -> Model Input -> Model -> Model Output -> Action
+  - Challenge
+    - Scaling: required training data costs time and money
+      - Excludes smaller players
+      - How can we achieve the required level of performance with less data?
+    - Robots not great at generalising
+      - spatially: if you move things round
+      - objects: if the object is similar but a different shape/colour
+  - Trick
+    - Instead of resnets and clip embeddings
+    - "Affordance Frame Detection"
+      - Understand the task in relation to affordance
+      - Position of the world and objects in relation of affordance
+      - E.g. robot's hand relative to teapot
+    - Pros/Cons
+      - - Requires more sophisticated perception pipeline
+      - + SUpport object and spatial generalisation
+      - + Allows for 
+    - affordance-policy.github.io
+- Part 2
+  - What is a "good" representation
+    - "Simulate-able"
+    - From few images
+    - multiple objects
+    - Deformable objects
+    - Physics
+    - Priors (Kinetics)
+      - Visual
+      - Physical
+  - Physically Embodied Gaussian Splatting
+    - Use particles to represent appearance and physics of objects
+    - Can do this purely from vision wihtout a CAD model
+  - Useful in two very different ways:
+    - Predict the future, given robot actions (up to ~5s)
+    - Simulation environment: actions actually happen here and are replicated in the real world
+- Part 3: Language models are good generic planners
+  - But they must be grounded in the robot's operating environment  
+  - Maps just become JSON that we feed to the LLM
+    - Does not scale well with environment size and palnnign horizon 
+     - Model tends to lose attention and hallucinate
+    - Solution:
+      - Exploit Hierarchical Nature of Environment
+      - Just expose the top level: Room
+       - Which room will be most relevant to the cleaning task? E.g. "Kitchen"
+      - Then go down the hierarchy: Furniture
+       - Which furniture will contain the things we need for the task "Cupboard"
+  - Paper: "Grounded Large Language Models..."
+- Sydekick Robotics 

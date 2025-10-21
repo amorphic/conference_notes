@@ -1,0 +1,27 @@
+Building Quantum Computing's Future
+
+- There are problems that can't be solved with classical computers
+  - Even if they are applied to AI
+- Why not just use Quantum?
+  - They're expensive and hard to build
+- Appliations w/AI
+  - Quantum is a highly accurate simulation of the chemistry in the lab
+  - We can potentially going to generate  high-precision, reliable data
+  - This data might feed machine learning systems
+- Why not yet?
+  - Too small: (hundreds of cubits)
+  - Too noisy: errors after a few hundred operations
+- PsiQuantum want to make quantum computers with millions of error-corrected cubits
+  - This requires lots of problems to be solved at scale
+  - Using photonics
+    - High performance silicon photonics
+    - Photons need to come off photonic chips and on to fibre optics
+    - Tier 1 Semiconductor Manufacturing
+    - Switching
+      - Similar to conventions
+  - Cooling
+   - Photons detected by thermal wire which needs to operate at very low temperature 
+- Plans
+  - Strong history in Quantum 
+  - Site near Brisbane airport
+   - Cryo plant coming first

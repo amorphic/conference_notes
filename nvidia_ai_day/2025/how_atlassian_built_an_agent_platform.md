@@ -1,0 +1,28 @@
+- Search
+  - Query re-write
+  - Fit query to index
+  - E.g.
+    - CTO -> Atlassian CTO
+    - Who is the CTO of Atlassian -> CTO Atlassian
+  - Optimisation
+    - Llama 3-8b
+    - Quantized
+    - Triton inferene server
+    - TensorRT
+  - Document Recall
+    - Chunking
+      - Chunks containing sequential data
+      - Chunk overlap
+      - Markdown!
+  - Re-Ranking
+    - Rank chunks in order of semantic relevance
+    - Cross-encoder
+      - Takes query and passage and returns score
+- Tools
+  - E.g. Atlassian entire Rest API is available in Rovo
+  - Fine-tuning didn't work as well as RAG
+- Orchestration
+  - There are lots of frameworks
+  - Opinion: you don't need them - it's just a for loop
+    - Complexity if the enemy of reliability
+    - "An LLM in a loop calling tools"

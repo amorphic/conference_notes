@@ -1,0 +1,51 @@
+- In the millions of factories around the world there is no evidence of computing technology
+  - Apart from 
+- Physical AI
+  - Input
+    - Sensor signals 
+     - Image tokens
+     - Text tokens
+     - Audio tokens?
+  - Output
+    - Actuator signals
+     - Servo motors
+     - etc
+  - Robots
+   - Basic
+   - Robotic arms etc
+   - Humanoid
+   - With sensors and actuators a room, building or city can be considered a robot
+- Industrial shift
+  - Labour shortage
+    - Dull
+    - Dirty
+    - Dangerous
+  - Reshoring manufacturing
+  - Change in robot strategy
+    - Robots we developed before were very difficult to program
+      - Painstakingly programmed by robotics specialists
+      - Robots have no "vision"
+      - Tasks are very specific and repetitive
+    - Even if robots were physically good
+    - We could make a good robot body but not a good robot brain
+- Nvidia's 3 computers for Industrial AI
+  - Simulate: Nvidia DGX
+    - Create synthetic training data
+    - Evaluate trained models safely/cheaply
+  - Train: Nvidia Jetson AGX
+  - Deploy: Simulate: Nvidia Omniverse w/Cosmos
+- Nvidia Isaac
+  - Open robotics development platform 
+  - Open founcation model
+    - Reasoning vision action language model
+  - Isaac Sim
+    - Robot simulation and testing
+  - Newton physics engine
+  - Omniverse/Cosmos
+    - Omniverses physical simulation
+    - Cosmos infinite situations (diffusion
+  - Cosmos
+    - Cosmos Predict: Diffuions model for world gen
+    - Cosmos Transfer: Photorealistic world gen
+    - Cosmos Reason: Vision Language Model with world understanding + reasoning
+- Outside In vs Inside Out

@@ -1,0 +1,46 @@
+- Aligining the org
+  - Working with AI
+  - Learning with AI
+  - Building with AI
+- Pillars
+  - AI Powered End
+  - AI Powered Ops
+  - AI Agentic
+  - AI "for all"
+- Planes
+  - Integer
+    - Von Neuman and Turing
+    - Punchcard, Tape
+    -
+  - Float
+    - First in Intel 8087
+    - Changed paradigm
+    - Tensor, Transformer, LLM
+  - Quantum
+- Planes inform "the right tool for the right job"
+ - AI is intelligence but it's not human intelligence
+ - This is important when we think about what problems are right and wrong for AI
+ - "Software People" and "AI People" are the same
+  - These will crossover more and more
+ - What does this masssive amount of compute and token-based intelligence unlock?
+- Loops
+  - Tools 
+    - Normal Software (completely deterministic)
+     - Expensive to build
+     - Very cheap to run
+    - Predictive Models
+    - Specialised Generative Models
+    - Large General Models
+    - Humans
+  - Loops
+    - Using Large General Models to create "Normal Software"
+    - 
+  - Future
+    - Start with mega-computer "Large General Models" architecture
+      - This is expensive 
+    - Transactive Memory
+      - Example: Instead of knowing all the names of TV actors, know a "reference" to another human who does
+      - Negotiating with AI individually, in our companies, across economies
+    - From MCP and A2A - now we need H2A, A2H, A2A
+    - From agents to swams is all about queues
+    - Moore's law may be dead but Jerven's paradox will hold

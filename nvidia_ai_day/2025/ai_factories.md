@@ -1,0 +1,29 @@
+Firmus AI
+
+- "Green" AI
+- Specs
+  - Ready for megawatt GPUs tomorrow
+  - Up to 50% less to build
+  - Chillerless computing means 99% less water
+  - 50% less land
+- What does Australia need to lead in AI?
+  - On-shore GPU assets
+  - Lowest-cost tokens
+  - New Australian AI jobs using and building AI
+  - Support new renewable energy development
+  - Build and retain value in Australia and within Australian taxation system
+- Project Southgate
+  - Started in Tasmania (where 
+   - Green AI Factory Zone
+   - Built in concert w/govt
+   - Georgetown
+    - 500MW Green AI factory development
+    - 100k GPUs
+  - Wesley Vale
+    - 200MW 
+  - Partnering with Nvidia and CDC to go to mainland
+    - Melbourne
+     - Q1 2026
+     - 18,500 GB300
+  - DGX Cloud
+   - First region in SG Melbourne 
