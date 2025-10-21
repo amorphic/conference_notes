@@ -1,0 +1,23 @@
+# Open Source in the Agentic Era
+
+- Open Models
+    - Gemma
+    - Gemmaverse: family of open models
+    - Gemma 3: relatively high ELO score vs parameter size (3B)
+- Open Engine
+    - Ray
+    - Framework to build and run distributed ML applications
+    - @ray.remote - converts a function to a task that can be run on a cluster
+    - Ray on VertexAI
+- Open Framework
+    - Agent Development Kit
+    - Taking agents to production is challenging
+        - A lot of 
+    - Framework and SDK to build multi-agent solutions
+    - Makes agent dev more like software dev
+    - Protocols like MCP and A2A
+    - BaseAgent can be extended
+    - Dev UI: ADK web to test + iterate
+    - Deploy anywhere
+        - Goog-hosted: Cloud Run, VertexAI
+        - Self-hosted: K8S, GKE etc

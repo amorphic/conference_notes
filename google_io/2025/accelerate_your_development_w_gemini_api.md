@@ -1,0 +1,87 @@
+# Accelerate Your Development with Gemini API
+
+- Text-to-Speech
+    - Pro & Flash
+    - Control emotion and style
+    - Generate conversations with multiple distinct voices
+    - Chat API
+- Gemini native audioi models
+    - 2 models:
+        - dialog
+        - thinking dialog: pauses to think for more detail
+    - Natural voices
+    - Multilingual
+    - Contextual understanding
+    - Live API
+- Other models
+    - Gemini Diffusion
+        - Faster than current LLM
+    - Deep Think
+- Gemini surfaces
+    - Consumers
+        - Apps 
+    - Devs
+        - API 
+    - Business/Enterprise
+        - Workspace
+- Gemini API Workflow
+    - RAI filters
+        - Safety + copyright
+        - Configurable
+    - Foundational Models
+    - Tools
+        - URL Context: supply URLs for RAG
+            - Response specifies content obtained from URLs
+        - Function calling
+            - Sync and async
+        - Grounding
+        - Code exec
+        - Structured outputs
+- Gemini API Features
+    - Multimodal
+        - YouTube link support
+        - 3 media resolution settings
+        - Dynamic fps
+        - Video clipping
+        - Image segmentation
+    - Long context
+        - 2M Pro
+        - 1M Flash
+    - Context caching
+        - Passing context can cost a lot
+        - Explicit and implicit
+            - Either specifically tell the model to cache or let the API decide 
+        - Tokens
+            - Min 1024 tokens for Flash
+            - Min 2048 tokens for Pro
+        - Tokens counting
+- Text generation
+    - Multimodal inputs
+        - Document understanding
+        - Bounding boxes
+        - Image segmentation
+    - Streaming experiences
+    - Set system instructions
+- Media gen
+    - Gemini 2.0 Flash Preview Image Gen
+        - Text and/or image input
+        - Teat and or image gen
+        - Conversational image editing
+    - Imagen 3
+    - Veo 2
+- Live API
+    - "realtime" low latency
+    - Stream audio and video
+- Agent architecture
+    - Model: reason over goals, determine plan, generate response
+    - Tools: Fetch datam erform actions or transactions by calling other APIs or services
+    - Orchestrations: Maintain state (including the approach used to plann), tools, data provided/fetched etc
+- Gemini thinking models
+    - Allocate `thinking_budget`
+- Best practice for agentic solutions
+    - Start with Clear Objectives: defines what you want your agent ot achieve
+    - Iterative Dev: Build and test in small increments
+    - Robust Tooling: Ensure functions are reliable and handle errors
+    - Prompt Engineering
+    - Leverage Thought Summaries
+    - Focus on User Experience
