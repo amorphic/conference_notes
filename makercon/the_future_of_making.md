@@ -1,0 +1,64 @@
+# The Future of Making
+## Professor Neil Gershenfeld - MIT
+
+Extended talk: https://www.youtube.com/watch?v=YDjOS0VHEr4
+
+- Problem: people were learning at Fab Academy and then "dropping off"
+ - Attempted to connect makers with traditional entrepreneurs but this didn't always work
+ - Went from meausuring number of Fablabs
+ - To measuring the programs run at Fablabs
+- Fab 2.0 Portal
+ - "Advanced" Fab Labs that can create Fab Lab machines
+  - More expensive regional labs that can allow local labs to be created cheaper
+  - Use the tools in an advanced Fab Lab to create the tools for a local fab lab
+ - Fab Lab in a Box
+  - All basic resources
+  - Importantly includes "teacher in a box" (which is actually all teahing materials that anyone can use to teach)
+ - Open Lab Starter Kit 
+  - https://www.inmachines.net/open-lab-starter-kit
+  - https://openlab.hamburg/en/openlabs/starterkit/
+- Fab 3.0
+ - "From printing and cutting to assembling and disassembling"
+ - E.g. circuits, chips and other things with global, long supply chains
+ - Build a chip or a circuit from smaller building blocks
+ - AI 
+  - We should not be surprised that the AI revolution followed 
+  - Assembly speed: 
+   - Chip fab: 10^10/s
+   - Human cel fab: 10^18/s
+    - "There's no trash in a forest"
+    - Cellural life assembled from 
+  - Von Neumann's last study
+   - "Celluar Automata" 
+   - "How a computation can communicate its own construction"
+  - Turing's last study
+   - "EvoDevo"
+   - Developmental programs let evolution discover designs
+   - WIll this be the heart of how engineering design will work in the future
+ - We think of these as distinct but the future is a seamless merging of physical and digital:
+  - Computing
+  - Communication
+  - Fabrication
+- The goal is a world where "everybody can make anything"
+ - How do we "live, play and work in this ^ world"? 
+ - We don't need to wait for this to apply lessons learned in the world of digital fabrication
+- How do you encourage people to be makers rather than consumers?
+ - "Show, don't tell"
+ - Example: poor community in Spain
+  - Community protested FabLab in preference of a Food Bank
+  - Once they understood the potential for self-sustaining food as well as creating toys, furtniture etc, the conversation changed
+- US proposal
+ - National network of FabLabs as urban infrastrucutre
+ - Interestingly these seem to bridge the divide between Conservatism and Liberalism
+ - Problem: traditional industry views these as toys
+- Creativity + Compassion
+ - AI Tooling
+  - AI + Human is powerful
+ - Job is work is money is consumption
+  - This is a relatively new paradigm for humans
+  - Traditionally everything is produced locally and based on the wisdom of community
+   - A world we live in which isn't goverend by faceless engineers far away
+   - You can create the world around you
+ - FabLab (All In) approach: Distributed Grass Roots, mentored and curated
+  - "Do it yourself" at its extreme causes unnecessary re-production
+  - "Hierarchy" creates needless barriers
