@@ -1,0 +1,207 @@
+Sessions and Training October 15–16, 2025  |  Sydney
+
+    Talks
+    From Idea to Reality: Amplifying Creativity with AI [AD21030]
+    AI is transforming how ideas move from spark to outcome. In this plenary talk, NVIDIA VP of Omniverse & Simulation Technology Rev Lebaredian and Canva Chief Product Officer Cameron Adams will explore how creativity and simulation together drive innovation. Cameron will share Canva’s vision for AI as a universal language of creativity, removing complexity so anyone can create with confidence. Rev will bring the NVIDIA perspective on how AI, simulation, and digital twins connect the digital and physical, accelerating industries from robotics to infrastructure. Together, they’ll show how imagination becomes real when amplified by AI.
+
+, Chief Product Officer and co-founder of Canva, Canva
+
+    , VP of Omniverse and Simulation Technology, NVIDIA
+        Thursday, Oct 169:30 AM - 10:45 AM AEDT
+        Pyrmont Theater
+
+    Talks
+    Scaling AI Across an Enterprise—Combining Human and Token Intelligence [AD21029]
+    At the Commonwealth Bank of Australia (CBA), AI is a fundamental enabler of business transformation. This talk is about the strategy behind how Australia’s largest bank is making AI its default operating model. We'll link four enterprise-wide programs to the big picture thinking of how we think about what to build in AI, and how we optimise cost and engineering effort in a world where tokens are the new intelligence. We'll also cover what tasks AI does, what it enables humans to do, and how we move towards more collaborative and embedded human and AI workflows.
+
+    , CIO for Technology, Commonwealth Bank of Australia
+        Thursday, Oct 1610:45 AM - 11:05 AM AEDT
+        Pyrmont Theater
+
+    Talks
+    Building a Sovereign, Green AI Factory for the Southern Hemisphere [AD21026]
+    In this talk, Firmus Technologies Co-CEO Tim Rosenfield shares the collaboration behind Project Southgate, a new Green AI Factory Campus located in Tasmania and developed using Firmus’ modular, liquid-first architecture. Designed in alignment with the latest NVIDIA liquid-cooled platforms, including Vera Rubin and Feynman, the AI Factory Campus will host 36,000 GPUs in a system built to optimise density, power efficiency, and compute flexibility. It's powered entirely by firmed hydroelectricity, enabled by Tasmania’s Green AI Factory Zone—a government-backed initiative to unlock energy pathways for next-generation digital infrastructure. This session will explore the infrastructure innovation behind the Firmus AI Factory model, how NVIDIA and Firmus are working together to support advanced systems deployment, and how Green AI Tokens are establishing new standards for energy-aligned AI output.
+
+, Co-CEO, Firmus Technologies
+
+    Thursday, Oct 1611:05 AM - 11:25 AM AEDT
+    Pyrmont Theater
+
+Talks
+Building (Quantum) Computing’s Future [AD21027]
+As we stand on the brink of the next era in computing, quantum technologies are poised to transform the industrial landscape. At the heart of this revolution lies a critical enabler: silicon photonics. In this talk, Prof. Jeremy O’Brien, CEO and Co-founder of PsiQuantum, will explore how silicon photonics underpins the path to utility-scale, fault-tolerant quantum computers. Delivering unprecedented scalability, speed, and efficiency, this platform is the foundation for unlocking solutions to some of the world’s most intractable problems.
+
+    , co-founder and Chief Architect, PsiQuantum
+        Thursday, Oct 1611:25 AM - 11:45 AM AEDT
+        Pyrmont Theater
+
+    Talks
+    Automating AI Factories With NVIDIA Mission Control [AD21004]
+    Learn about AI factories' deep integration with data center power and cooling. We'll look at why an end-to-end approach for resiliency and automation is key for the overall availability, reliability, and usability of the system. NVIDIA Mission Control brings advanced end-to-end observability as well as autonomous, intelligent self-healing—critical to the efficient management of modern, large-scale infrastructure.
+
+, Senior Manager, Solutions Architecture, NVIDIA
+
+    Thursday, Oct 161:15 PM - 1:55 PM AEDT
+    C4.6
+
+Talks
+High-Performance, Quantum- and AI-Driven Drug Discovery [AD21016]
+Drug discovery hinges on modelling and manipulating matter at bioscale. Yet current computational approaches are too slow or insufficiently accurate, forcing costly experiments. We present a digital chemistry framework that unites many-GPU high-performance computing, quantum chemistry, and machine learning, with novel algorithms and software optimizations that remove long-standing cost and efficiency barriers to scalable quantum methods. Recognized with the 2024 ACM Gordon Bell Prize, this work enabled the first quantum-accurate simulations of biomolecular systems with fidelity approaching experiment and the first exaflop-scale computation in double precision. Through exascale supercomputing, automated workflows, and ML trained on quantum-accurate data, the platform delivers automatable, adaptive, cost-effective models of complex phenomena. The result is accelerated discovery, stronger molecular design, and a redefined horizon for in-silico research across chemistry and biology.
+
+, Professor of Quantum Medicinal Chemistry (MIPS) & High-Performance Computing (ANU), Co-Founder & Head of Research (QDX), Monash Institute of Pharmaceutical Sciences, ANU, QDX Technologies
+
+    Thursday, Oct 161:15 PM - 1:55 PM AEDT
+    C4.1
+
+Talks
+Industrial Autonomy in the Era of Physical AI [AD21015]
+The rapid emergence of generative AI for the physical world marks a pivotal shift across industries. Physical AI models—capable of perceiving and interacting with real-world environments—are revolutionizing traditional rule-based automation by enabling intelligent, adaptive autonomy for high-mix and unstructured scenarios. From warehouses to factories, vehicles to the robots beside us, Physical AI is set to transform industrial facilities powering up to $50 trillion of global GDP. In this session, discover how NVIDIA, together with our global ecosystem of software, hardware, and robotics partners, is driving the next evolution of industrial autonomy—unlocking new opportunities, optimizing operations, and setting fresh benchmarks for resilience and innovation. Join us to see real-world applications and learn how leading-edge AI technologies are shaping the future of manufacturing, logistics, and beyond.
+
+, VP of Omniverse and Simulation Technology, NVIDIA
+
+    Thursday, Oct 161:15 PM - 1:55 PM AEDT
+    C4.5
+
+Talks
+Unlocking the Power of Agentic AI: Effective Methods for Building Intelligent Digital Agents [AD21014]
+AI agents are rapidly transforming the digital landscape, acting as autonomous collaborators capable of reasoning, planning, and interacting with both data and external tools. However, tapping into the vast and complex data within enterprises presents unique challenges, particularly regarding cost and efficiency. This session introduces practical approaches for creating agentic AI systems—systems where agents can seamlessly access reusable tools and integrate with diverse data sources. By using advanced methodologies, developers and businesses can empower AI agents to maximize enterprise data usage, drive organizational efficiency, and achieve continuous innovation—without the need for proprietary or specialized platforms. You'll discover actionable insights into building flexible and powerful agentic systems suitable for Australia’s drive toward technological excellence and operational precision.
+
+    , Sr. Solution Architect, NVIDIA
+        Thursday, Oct 161:15 PM - 1:55 PM AEDT
+        C4.4
+
+    Talks
+    Accelerating Drug Discovery With GPU-Powered, Sequence-Based Deep Learning Models [AD21006]
+    Predicting how small molecules interact with proteins is a key challenge in drug discovery, especially when structural information is lacking. Existing approaches often require detailed protein structures and offer limited interpretability. We introduce PSICHIC, a graph neural network that leverages GPU acceleration to efficiently learn the patterns of protein–molecule interactions using only sequence data. By integrating core physical and chemical constraints, PSICHIC achieves top-tier performance in predicting binding strength and provides interpretable insights into the mechanisms behind these interactions. Our findings demonstrate that GPU-powered, sequence-based deep learning models can match—and even surpass—traditional structure-dependent methods, pointing to a new era of speed and insight for AI-driven drug discovery. We'll also highlight how the next generation of GPUs can accelerate the process even further.
+
+, Australian Laureate Fellow, Monash University
+
+    Thursday, Oct 162:00 PM - 2:40 PM AEDT
+    C4.1
+
+Talks
+AI in Motion: Scaling Creative Models for Human Expression [AD21023]
+AI at scale isn’t just bigger models. It’s smarter choices. In this session, Canva shares lessons from building multimodal systems shaped by Leonardo’s creative ethos and accelerated by NVIDIA. From GANs to diffusion to VLMs, we’ll unpack trade-offs in data, architecture, and training at petabyte scale. Discover candid “aha” moments, the missteps that taught us the most, and insights into how technical decisions directly shape usable, expressive tools for millions of creators.
+
+, Distinguished Software Engineer, NVIDIA
+
+, Global Research Lead of Canva Research at Canva and co-founder of Leonardo.AI, Canva
+
+    Thursday, Oct 162:00 PM - 2:40 PM AEDT
+    C4.4
+
+Talks
+From Language to Physics: Next-Gen Robot Learning for the Real World [AD21007]
+Explore four breakthrough approaches that bring robots closer to human-level interaction with the world. This talk reveals how embodied 3D world models, language-grounded planning, affordance-centric learning, and highly-efficient multi-modal policy training are transforming how robots reason, perceive, and act. Attendees will leave with new insights into building robots that adapt faster, plan smarter, and learn more from less data.
+
+, Professor, QUT Centre for Robotics
+
+    Thursday, Oct 162:00 PM - 2:40 PM AEDT
+    C4.5
+
+Talks
+How to Deploy Generative AI Inference at Scale [AD21025]
+As generative AI models continue to grow in complexity and size, scalable and efficient inference becomes a key challenge for deployment in real-world applications. This session introduces a modular, distributed inference architecture designed to overcome this bottleneck. We’ll dive into core innovations such as disaggregated serving, intelligent request routing, and GPU-aware execution planning—techniques that enable low-latency, high-throughput inference across multi-node GPU clusters. The talk will also explore how separating the prefill and decode phases of inference helps optimize memory and compute utilization, and how this architecture integrates with leading large language model (LLM) runtimes.
+
+    , Solutions Architecture (Data Science) Manager, NVIDIA
+        Thursday, Oct 162:00 PM - 2:40 PM AEDT
+        C4.6
+
+    Talks
+    Accelerating Quantum in Australia [AD21019]
+    Quantum computing is at an inflection point. By integrating with AI supercomputing, quantum processors are moving into an era of error-corrected, logical qubits, creating accelerated quantum supercomputers capable of solving otherwise intractable problems in drug discovery, energy, materials science, and more. We discuss NVIDIA’s latest work integrating quantum-classical systems and accelerating the Australian quantum and high-performance computing (HPC) communities. This includes using AI supercomputing to accelerate quantum research and reduce the timeline to useful quantum applications.
+
+, Group Product Manager, Quantum Computing, NVIDIA
+
+    Thursday, Oct 163:00 PM - 3:40 PM AEDT
+    C4.1
+
+Talks
+Medical Foundation Models for Retina, Skin, and Brain at Population Scale [AD21020]
+Learn how the Monash AIM for Health Lab builds and validates medical foundation models across ophthalmology, dermatology, and neurology. This process spans a retinal expert trained on 230k+ images and now scaling toward 100M across 12 global sites, a four-modality dermatology model that lifts clinician performance, and an AI-guided anti-seizure-medication RCT in newly diagnosed epilepsy. We’ll dive into data curation, multimodal pretraining, reader studies/RCT design, and NVIDIA-accelerated training/inference (H100/H200 today; MAVERIC’s 144 GB200 cards next) to translate models into safe, efficient clinical workflows.
+
+, Founding Member of the Augmented Intelligence and Multimodal Analytics (AIM) for Health Lab, Monash University
+
+    Thursday, Oct 163:00 PM - 3:40 PM AEDT
+    C4.4
+
+Talks
+NVIDIA Halos Opens A New Era of Safety Framework for Physical AI [AD21012]
+As AI moves from the digital to the physical world, new and urgent safety challenges emerge for autonomous vehicles, robotics, and other intelligent systems. We'll explore how NVIDIA Halos, the comprehensive framework for physical AI safety, is applied across the entire development lifecycle to build robust safety guardrails. You'll also learn how Halos AI Systems Inspection Lab and its Certification Program help organizations accelerate their safety certification process.
+
+, Vice President of Industry Safety, NVIDIA
+
+    Thursday, Oct 163:00 PM - 3:40 PM AEDT
+    C4.5
+
+Talks
+Real-time Simulations in CRE: How NVIDIA-powered Sovereign AI Factories Are Unlocking Omniverse [AD21024]
+ResetData’s sovereign AI factories, built on NVIDIA H200 and L40S clusters, enable rapid deployment of sector-specific digital twins that de-risk investment by removing the guesswork from capital allocation. This session explores real-world NVIDIA Omniverse applications transforming asset management, from solar feasibility modelling across 250+ Centuria industrial assets, to GEYER VALMONT’s real-time workplace simulator accelerating and optimising the leasing lifecycle. Attendees will leave with a clear understanding of how sovereign AI factories and the Omniverse stack are reducing costs, improving sustainability, and unlocking competitive advantage across the CRE industry.
+
+    , Joint CEO, ResetData
+        Thursday, Oct 163:00 PM - 3:40 PM AEDT
+        C4.6
+
+    Talks
+    Connecting Real-Time Insights to Action at the Quick-service restaurants (QSRs) edge [AD21005]
+    Explore how a unified Agentic AI framework, deployed at the edge, is revolutionizing Quick-Serve Restaurants (QSRs) by transforming operations from reactive monitoring to proactive management and actionable insights. Discover how this approach, which leverages NVIDIA Blueprint for Video Search and Summarization (VSS), delivers quick responsiveness essential in a fast-paced environment, creating a connected ecosystem where AI insights from cameras are pushed directly to staff via IoT devices like headsets, smart watches, and glasses. Learn how these resilient, multi-agent workflows leverage NVIDIA's full stack to dramatically reduce development time and deliver a complete system for turning yesterday's insights into today's operational excellence.
+
+, Technical Director, Fingermark Ltd
+
+    Thursday, Oct 164:00 PM - 4:40 PM AEDT
+    C4.5
+
+Panels
+From Black Box to Breakthrough: How Australian Startups Accelerate AI With NVIDIA [AD21017]
+Scaling AI isn’t just about bigger models. It’s about making them faster, clearer, and trustworthy. In this lightning talk, three Australian startups reveal how they’re transforming AI from a black box into enterprise-ready breakthroughs with NVIDIA. From optimizing multimodal agents using the NVIDIA NeMo Agent Toolkit, to powering near real-time highlight generation for over 100,000 streamers with NVIDIA Metropolis DeepStream, to enabling regulation-ready financial intelligence on a GPU-accelerated modern lakehouse with NVIDIA NIM and RAPIDS—these innovators show how visibility, velocity, and trust converge. Together, they highlight Australia’s AI edge and how startups everywhere can scale smarter on the NVIDIA stack.
+
+, Sr. Director, Developer Relations, NVIDIA
+
+, Founder, Eklipse
+
+, Founder and CEO, Zetaris
+
+, CTO and Co-Founder, Brainfish
+
+    Thursday, Oct 164:00 PM - 4:40 PM AEDT
+    C4.6
+
+Panels
+State of Australia Quantum Computing [AD21013]
+Australia is aiming to become a global leader in quantum technology, with a focus on using quantum computing for economic growth and addressing societal challenges. The session will feature insights from three luminaries on quantum computing, providing a multi-faceted perspective by drawing on the expertise and experience of these distinguished individuals: Professor Hugh Durrant-Whyte, NSW Chief Scientist and Engineer; Dr André Saraiva, Head of Theory at Diraq; and Dr Michael Hush, Chief Scientific Officer at Q-CTRL—offering diverse perspectives on the evolving quantum landscape.
+
+, HPC Business Development Lead, NVIDIA
+
+, Chief Scientific Officer, Q-CTRL
+
+, Head of Theory, Diraq
+
+, NSW Chief Scientist & Engineer, NSW Government
+
+    Thursday, Oct 164:00 PM - 4:40 PM AEDT
+    C4.1
+
+Talks
+Transforming Teamwork: Atlassian's Next-Generation AI, Generative AI Agents, and the Future of Collaboration [AD21008]
+Atlassian’s latest advancements embed AI and generative AI (gen AI) deeply into its platform, introducing intelligent automation and seamless knowledge discovery through Rovo, the enterprise AI assistant. These innovations empower AI agents to autonomously execute complex workflows and deliver actionable insights across a wide range of business tools. The talk will showcase how Atlassian Intelligence and Rovo are revolutionizing productivity, collaboration, and decision-making for today’s organizations. Attendees will discover practical use cases and learn how adopting these technologies can future-proof their teams.
+
+    , Senior Machine Learning Engineer, Atlassian
+        Thursday, Oct 164:00 PM - 4:40 PM AEDT
+        C4.4
+
+
+	    	
+	    	
+	    		
+
+	    		
+	    		
+
+	    	
+	    
+
+    Privacy Policy Your Privacy Choices Legal Accessibility Corporate Policies Product Security Contact 
+
+Copyright © 2025 NVIDIA Corporation
+
+
